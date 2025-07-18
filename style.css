@@ -1,0 +1,39 @@
+html,body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    justify-content: center;
+    padding: 0;
+    background-color: aqua;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+  height: 600px;
+    margin-top: 20px;
+    border: 2px solid;
+    
+    
+    
+}
+.square{
+    
+    background-color: rgb(253, 254, 255);
+    transition: background-color 0.2s;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.create{
+    background-color: rgb(66, 66, 247);
+    color: azure;
+    padding: 2px;
+    border-radius: 3px;
+    width:100px;
+    font-size: 20px;
+    margin-top: 5px;
+
+}
